@@ -32,8 +32,10 @@ const sum = userNumber + cpuNumber;
 
 if ((isEven(sum) && userChoseEven(userChoice)) || (!isEven(sum) && !userChoseEven(userChoice))) {
     alert("Hai vinto!");
+    console.log("Hai vinto!");
 } else {
     alert("CPU ha vinto!");
+    console.log("CPU ha vinto!");
 }
 
 console.log(`UserChoice: ${userChoice}`);
